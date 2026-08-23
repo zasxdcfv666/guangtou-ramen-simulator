@@ -1,0 +1,22 @@
+node_modules/
+dist/
+fps-config.json
+# 测试截图和临时文件
+*_screenshot.png
+*_screenshot.jpg
+error_screenshot.png
+cpu_screenshot.png
+game_screenshot.png
+screenshot_*.png
+test_accept_final.png
+user_screenshot.png
+user_upload.jpg
+real_game_screenshot.png
+real_store_base64.txt
+storefront_base64.txt
+# 测试脚本
+test_*.js
+screenshot*.js
+real_screenshot.js
+test-render.js
+update.js

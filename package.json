@@ -1,0 +1,64 @@
+{
+  "name": "guangtou-ramen-simulator",
+  "version": "1.0.0",
+  "description": "朝阳路光头拉面模拟器 - 福州仓山区菖蒲路5号深夜食堂经营游戏",
+  "main": "main.js",
+  "author": "光头拉面",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win --x64",
+    "build:portable": "electron-builder --win --x64 --config.productName=朝阳路光头拉面模拟器"
+  },
+  "build": {
+    "appId": "com.guangtou.ramen",
+    "productName": "朝阳路光头拉面模拟器",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "index.html",
+      "main.js",
+      "preload.js",
+      "package.json",
+      "Summer.mp3",
+      "icon.ico",
+      "icon.png"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "朝阳路光头拉面模拟器",
+      "installerIcon": "icon.ico",
+      "uninstallerIcon": "icon.ico",
+      "installerHeaderIcon": "icon.ico",
+      "license": "LICENSE.txt"
+    },
+    "portable": {
+      "artifactName": "朝阳路光头拉面模拟器_便携版.exe"
+    }
+  },
+  "devDependencies": {
+    "electron": "^41.7.1",
+    "electron-builder": "^26.15.3"
+  }
+}
