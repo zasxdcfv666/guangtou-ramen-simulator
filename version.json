@@ -1,5 +1,5 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "downloadUrl": "https://github.com/zasxdcfv666/guangtou-ramen-simulator/releases/latest",
-  "releaseNotes": "v1.0.3 多语言更新：\n\n✨ 新增功能\n• 游戏设置新增语言切换，支持四种语言\n• 🇨🇳 中文简体 / 🇨🇳 中文繁體\n• 🇺🇸 English (US) / 🇬🇧 English (UK)\n• 切换语言即时生效，自动保存设置"
+  "releaseNotes": "v1.0.4 完整多语言更新：\n\n🌍 新增20种语言\n• 🇨🇳 中文简体/繁體（台灣）/繁體（香港）\n• 🇺🇸 English (US) / 🇬🇧 English (UK)\n• 🇯🇵 日本語 / 🇰🇷 한국어\n• 🇩🇪 Deutsch / 🇫🇷 Français / 🇮🇹 Italiano\n• 🇪🇸 Español / 🇲🇽 Español (México)\n• 🇵🇹 Português / 🇧🇷 Português (Brasil)\n• 🇷🇺 Русский / 🇵🇱 Polski / 🇨🇿 Čeština / 🇭🇺 Magyar\n\n✨ 主菜单、设置、暂停菜单、音乐播放器全部翻译\n切换语言即时生效，自动保存设置"
 }
