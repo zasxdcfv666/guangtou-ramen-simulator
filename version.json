@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "downloadUrl": "https://github.com/zasxdcfv666/guangtou-ramen-simulator/releases/latest",
   "releaseNotes": "v1.0.2 热修复：\n\n• 修复 GitHub 更新检查 CDN 缓存问题\n• 更新请求自动加时间戳绕过缓存\n• 更新日志新增 v1.0.2 记录"
 }
