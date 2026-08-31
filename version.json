@@ -1,5 +1,5 @@
 {
   "version": "3.3.0",
-  "downloadUrl": "https://github.com/zasxdcfv666/guangtou-ramen-simulator/releases/download/v3.3.0/光头拉面模拟器_v3.3.0_最终版.exe",
+  "downloadUrl": "https://github.com/zasxdcfv666/guangtou-ramen-simulator/releases",
   "releaseNotes": "v3.3.0 画质大革命更新\n\n【画质升级】\n- WebGL GPU加速后处理，ACES电影级色调映射\n- 程序化材质系统，墙面/地砖/木纹/金属全部有质感\n- 高质量/兼容模式双档位切换\n- 暗角、色彩分级、胶片颗粒\n\n【天气系统重做】\n- 10级天气（按中国气象局标准）\n- 福州仓山区真实气象数据，按月配置降雨概率\n- 天气持续时间更长，过渡更自然\n- 真实雨声音效\n\n【其他优化】\n- 激活延迟bug修复\n- 整体亮度调整\n- NSIS安装包中文许可证协议\n- 安装包侧边位图"
 }
